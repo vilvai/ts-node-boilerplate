@@ -6,13 +6,12 @@
   "author": "Ville Vainio <ville.vainio1@gmail.com>",
   "license": "MIT",
   "private": true,
-  "type": "module",
   "engines": {
     "node": "16.x",
     "yarn": "1.x"
   },
   "scripts": {
-    "start": "node --loader ts-node/esm src/index.ts",
+    "start": "ts-node src/index.ts",
     "lint": "eslint . --ext .tsx,.ts,.js"
   },
   "devDependencies": {
